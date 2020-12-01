@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Docker.iml" filepath="$PROJECT_DIR$/.idea/Docker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/admins/admins.iml" filepath="$PROJECT_DIR$/admins/admins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cliente/cliente.iml" filepath="$PROJECT_DIR$/cliente/cliente.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dashboard/dashboard.iml" filepath="$PROJECT_DIR$/dashboard/dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enrutado/enrutado.iml" filepath="$PROJECT_DIR$/enrutado/enrutado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaServer/eurekaServer.iml" filepath="$PROJECT_DIR$/eurekaServer/eurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factura/factura.iml" filepath="$PROJECT_DIR$/factura/factura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pagos/pagos.iml" filepath="$PROJECT_DIR$/pagos/pagos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine/turbine.iml" filepath="$PROJECT_DIR$/turbine/turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/visita/visita.iml" filepath="$PROJECT_DIR$/visita/visita.iml" />
+    </modules>
+  </component>
+</project>

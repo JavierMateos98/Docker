@@ -1,0 +1,63 @@
+version: '2'
+services:
+  eureka:
+    image: eureka
+    container_name: eureka
+    ports:
+      - 8761:8761
+  mysql:
+    image: mysql
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+    volumes:
+      - C:\Users\Javi\bootcamp\Docker\data:/var/lib/mysql
+    ports:
+      - 3307:3306
+  mongo:
+    image: mongo
+    container_name: mongo
+    volumes:
+      - C:\Users\Javi\bootcamp\Docker\dataMongo:/data/db
+    ports:
+      - 27017:27017
+  admins:
+    image: admins
+    container_name: admins
+    ports:
+      - 8093:8093
+  dashboard:
+    image: dashboard
+    container_name: dashboard
+    ports:
+      - 8092:8092
+  enrutado:
+    image: enrutado
+    container_name: enrutado
+    ports:
+      - 8091:8091
+  turbine:
+    image: turbine
+    container_name: turbine
+    ports:
+      - 8094:8094
+  clientes:
+    image: cliente
+    container_name: cliente
+    ports:
+      - 8085:8085
+  visita:
+    image: visita
+    container_name: visita
+    ports:
+      - 8086:8086
+  facturas:
+    image: facturas
+    container_name: factura
+    ports:
+      - 8087:8087
+  pagos:
+    image: pagos
+    container_name: pago
+    ports:
+      - 8088:8088
